@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../font/flaticon.css">
+	<style type="text/css">
+	    body{
+	    	background-color: #F0E68C;
+	    }
+		#signo:before{
+			content: '\f17e';
+			position: absolute;
+			font-family: 'flaticon';
+			color: #000;
+			font-size: 3.1em;
+			-webkit-animation: signo 0.5s infinite;
+		}
+		@-webkit-keyframes signo{
+			20%{
+               transform: translateX(10px);
+			}
+			40%{
+				transform: translateX(-10px);
+			}
+			60%{
+				transform: translateY(10px);
+			}
+			80%{
+				transform: translateY(-10px);
+			}
+		}
+		h3{
+			color: #000;
+			font-size: 3em;
+		}
+		p{
+			font-weight: bold;
+		}
+		#esfera{
+			width: 100px;
+			height: 100px;
+			background-color: #000;
+			border-radius: 50%;
+			border:2px solid #fff;
+			position: relative;
+			left: 40%;
+		}
+		#esfera:before{
+			content: '.';
+			position: absolute;
+			color: #fff;
+			left: 15px;
+			top: -140px;
+			font-size: 9.5em;
+		}
+		#esfera:after{
+			content: '.';
+			position: absolute;
+			color: #fff;
+			left: 45px;
+			top: -140px;
+			font-size: 9.5em;
+		}
+		#boca:before{
+			content: '/\\/\\/\\/\\/';
+            position: absolute;
+			color: #fff;
+			left: 30px;
+			top: 60px;
+			font-size: 0.7em;
+		}
+		#pepa:before{
+			content: '.';
+			position: absolute;
+			color: #000;
+			font-size: 6em;
+			top: -73px;
+			left: 21px;
+		}
+		#pepa:after{
+		    content: '.';
+			position: absolute;
+			color: #000;
+			font-size: 6em;
+			top: -73px;
+			left: 51px;
+			z-index: 99;	
+		}
+	</style>
+</head>
+<body>
+
+    <section class="container mt-5">
+    	<div class="row">
+    		  <div class="col-8 col-md-6">
+    		  	  <h3 class="text-center">Error 404</h3>
+    		  </div>
+    		  <div class="col-4 col-md-6">
+    		  	  <div id="signo" class="text-center"></div>
+    		  </div>
+    	</div>
+
+    	<div class="row mt-5 justify-content-center">
+    		  <div class="col-6">
+    		  	   <p class="text-center">Lo sentimos pero la direccion URL que escribio no esta disponible por favor revise y vuelva a intentarlo</p>
+    		  	   <p class="text-center">El servidor no pudo encontrar lo que se especifica en la URL</p>
+    		  </div>
+    	</div>
+
+    	<div class="row justify-content-center mt-5">
+    		  <div class="col-10">
+    		  	  <div id="esfera"><div id="pepa"></div><div id="boca"></div></div>
+    		  </div>
+    	</div>
+    </section>
+
+    
+</body>
+</html>

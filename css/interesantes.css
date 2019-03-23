@@ -1,0 +1,109 @@
+.cuadro{
+        width: 100%;
+        height: 400px;
+        border:2px solid #000;
+}
+.bordes{
+	border: 2px solid #000;
+}
+.barra_inte{
+	background-color: rgba(0,0,0,0.6);
+}
+article ul li a{
+	color: #fff;
+}
+article ul li a:hover{
+	color: #fff;
+	background-color: #ce7f08;
+}
+.fondo{
+	background:-webkit-linear-gradient(
+    40deg, #cdcdcd,#606060,#cdcdcd); 
+}
+#temas{
+	position: absolute;
+	right: 0px;
+	color: #fff;
+	background-color: #ce7f08; 
+}
+#tamano_video{
+	width: 350px;
+}
+#caja_comentarios{
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 12px;
+}
+#caja_comentarios:before{
+	content: '';
+	position: absolute;
+	border: 1px solid #000;
+	border-right-width: 20px;
+	border-left-width: 20px;
+	border-bottom-width: 20px;
+	border-top-width: 20px;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-right-color: white;
+	border-left-color: transparent;
+	left: 50px; 
+	top: 15px; 
+}
+.rojo{
+	color: #DC143C;
+	font-weight: bold;
+}
+.azul{
+	color: skyblue;
+	font-weight: bold;
+}
+.verde{
+	color: #32CD32;
+	font-weight: bold;
+}
+.naranja{
+	color: #D2691E;
+	font-weight: bold;
+}
+.amarillo{
+	color: #DAA520;
+	font-weight: bold;
+}
+.blanco{
+	color: #fff;
+}
+
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+	#tamano_video{
+		width: 490px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+	}*/
+	#tamano_video{
+		width: 660px;
+	}
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+	}*/
+	#tamano_video{
+		width: 900px;
+	}
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+	}*/
+	#tamano_video{
+		width: 1080px;
+	}
+}

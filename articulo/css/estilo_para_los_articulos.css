@@ -1,0 +1,80 @@
+#fondo{
+	background-color: #fff;
+}
+#sabias{
+	background-color: #cdcdcd;
+}
+#sabias h6{
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	padding: 5px;
+}
+#sabias p{
+	font-weight: bold;
+}
+#sabias:before{
+	content: '\f133';
+	position: absolute;
+	font-family: 'flaticon';
+	color: #fff;
+	width: 40px;
+	right: -3px;
+	top: -10px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 50%;
+	text-align: center;
+	font-size: 1.7em;
+}
+
+#sugerencia{
+    background-color: #cdcdcd;	
+}
+#sugerencia h6{
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	padding: 5px;
+}
+#sugerencia p{
+	font-weight: bold;
+}
+#sugerencia:before{
+	content: '\f10d';
+	position: absolute;
+	font-family: 'flaticon';
+	color: #fff;
+	width: 40px;
+	right: -3px;
+	top: -10px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 50%;
+	text-align: center;
+	font-size: 1.7em;
+}
+#corazon:after{
+	content: '\f16a';
+	position: absolute;
+	font-family: 'flaticon';
+	font-size: 2.0em;
+	font-weight: bold;
+}
+#foto_articulo{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+#foto_articulo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+#compartir_articulo{
+	width: 50px;
+	height: 50px;	
+}
+#compartir_articulo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}

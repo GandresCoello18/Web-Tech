@@ -1,0 +1,107 @@
+.titulo{
+	font-family: 'Arial Rounded MT Bold';
+}
+.texto{
+	background-color: #fff;
+	position: relative;
+	top: 10px;
+}
+.texto h5{
+	margin: 15px;
+}
+.titulo{
+	background-color: #fff;
+}
+.titulo h2{
+	position: relative;
+	top: -15px;
+}
+#formulario{
+	border-radius: 10px;
+	background:-webkit-linear-gradient(
+    40deg, #008B8B,#66CDAA,#8FBC8F
+		);
+}
+#formulario label{
+	font-weight: bold;
+	left: -5px;
+	position: relative;
+	color: #fff;
+}
+#formulario h3{
+	color: #fff;
+}
+#formulario #rojo{
+	color: red;
+	font-size: 1.3em;
+}
+footer{
+	top: 0px;
+}
+#enviar:before{
+	content: '\f11e';
+	position: absolute;
+	font-family: 'flaticon';
+	left: 40px;
+	top: 6px;
+	font-size: 1.2em;
+}
+#limpiar:before{
+	content: '\f12a';
+	position: absolute;
+	font-family: 'flaticon';
+	left: 40px;
+	top: 8px;
+}
+
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+	}*/
+	.titulo{
+	top: 30px;
+    }
+    #formulario{
+    	width: 480px;
+    	left: 110px;
+    	position: relative;
+    }
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+	}*/
+	.texto{
+		width: 700px;
+		left: 110px;
+	}
+	.titulo-2{
+     width: 700px;
+     position: relative;
+     left: 110px;
+	}
+	#formulario{
+		left: 230px;
+	}
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+	}*/
+	.texto{
+		left: 200px;
+	}
+	.titulo-2{
+     left: 200px;
+	}
+	#formulario{
+		left: 320px;
+	}
+}

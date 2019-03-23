@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simulacion Batalla</title>
+	<link rel="stylesheet" href="css/pelea.css">
+	<link rel="stylesheet" href="../../css/bootstrap.css">
+</head>
+<body>
+
+	<h3 class="text-center mt-2">Simulacion Batalla</h3>
+	<p class="text-center"><strong>Ejercicio:</strong> Crear 2 barras de progreso que identifique la vida de los jugadores, cada ataque recibido tendra que ser restada a la cantidad de vida, cuando la vida este por debajo del <b>50%</b> la barra cambia a color amarillo y cuando la barra este por debajo de <b>25%</b> la barra cambiara a color rojo.</p>
+	<p class="text-center">Los ataques se manejan mediante turnos, es decir cuando el jugador #1 ataque, se bloqueara el boton y se habilitara el boton de jugador #2.</p>
+	<hr/>
+
+<div class="container mt-5">
+		<div class="row">
+				<div class="col">
+					<div class="progress">
+						<div class="progress-bar bg-success medidad_barras barra1">Luchador sack <strong id="porcentaje1">100</strong>%</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="progress">
+						<div class="progress-bar bg-success medidad_barras barra2">Luchador kokul <strong id="porcentaje2">100</strong>%</div>
+					</div>
+				</div>
+		</div>
+
+		<div class="row mt-2">
+				<div class="col"><div class="luchador"><img src="../../portada/luchadores.png" id="img_vuelta1"><div id="energia1"></div></div></div>
+
+				<div class="col"><div class="luchador"><img src="../../portada/luchadores.png" id="img_vuelta2"><div id="energia2"></div></div></div>
+		</div>
+
+		<div class="row mt-2">
+				<div class="col"><button class="btn btn-primary form-control botom1" onclick="luchador(1)">Ataquar</button></div>
+				<div class="col"><button class="btn btn-primary form-control botom2" disabled="true" onclick="luchador(2)">Ataquar</button></div>
+		</div>
+
+		<div class="row mt-5">
+			<div class="col"><div class="alert alert-info">Deceas mirar el <b>codigo fuente</b> y el proceso de desarrollo? Te invito a observar el siguiente <a href="#" class="alert-link">"Video - Tutorial"</a></div></div>
+		</div>
+
+
+</div>
+
+<script src="js/pelea.js"></script>
+<script src="../../js/jquery-3.0.0.min.js"></script>
+<script src="../../js/tether.min.js"></script>
+<script src="../../js/bootstrap.js"></script>
+</body>
+</html>

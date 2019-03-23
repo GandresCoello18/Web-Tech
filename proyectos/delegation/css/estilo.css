@@ -1,0 +1,13 @@
+.cosas{
+	border: 1px solid #cdcdcd;
+	opacity: 0.9;
+}
+.eliminar{
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	background-color: red;
+	color: #fff;
+	border-radius: 50%;
+	padding: 3px;
+}

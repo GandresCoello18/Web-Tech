@@ -1,0 +1,10 @@
+body{
+	background-color: rgba(245,245,245,0.9);
+}
+.fuera{
+	background-color: #fff; 
+}
+.border{
+	border-left: 2px solid royalblue;
+	border-bottom: 3px solid royalblue;
+}

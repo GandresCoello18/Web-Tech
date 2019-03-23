@@ -1,0 +1,19 @@
+#cta {
+		background: #e89980;
+		color: #f9e6df;
+		padding: 3.5em 0 4em 0;
+		text-align: center;
+	}
+	#cta form {
+			margin: 0 auto;
+			max-width: 100%;
+			width: 25em;
+		}
+	#cta h2{
+		color: inherit;
+	}
+	#cta input[type="email"]{
+		color: #ffffff;
+		background: rgba(255, 255, 255, 0.15);
+		border: 2px solid #cdcdcd;
+	}

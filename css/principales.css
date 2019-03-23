@@ -1,0 +1,496 @@
+body::-webkit-scrollbar{
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #20B2AA;
+  border-radius: 5px;
+}
+body{
+	background: rgba(245,245,245,0.9);
+	overflow-x: hidden;
+}
+/*logo*/
+#bordes{
+		width: 110px;
+		height: 100px;
+		position: absolute;
+		left: -10px;
+		overflow: ;
+		z-index: 99999999999;
+		transform: scale(0.5);
+		top: -25px;
+		border-radius: 50%;
+		background-image: url('../img/logo-wt.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+#carrusel{
+	width: 99%;
+	overflow-x: hidden;
+}
+#carrusel img{
+	width: 100%;
+}
+.caja{
+	background-color: rgb(0,0,0,0.5);
+	border-radius: 10px;
+}
+#barra{
+	width: 93%;
+	height: 40px;
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+	z-index: 9999;
+}
+#menu{
+	width: 60px;
+	height: 40px;
+	position: relative;
+	left: 10px;
+	cursor: pointer;
+}
+#menu:before{
+	content: '\f13e';
+	position: absolute;
+	font-family: 'flaticon';
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.7em;
+	text-align: center;
+}
+#navegacion{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+	z-index: 999;
+	overflow: hidden;
+}
+#navegacion ul li a{
+	z-index: 999;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#navegacion ul li form input{
+	width: 100px;
+	height: 30px;
+	font-size: 13px;
+}
+#navegacion ul li a:hover{
+   background: rgba(0,0,0,0.5);
+   -webkit-animation: yes 0.5s 1;
+}
+@-webkit-keyframes yes{
+	40%{
+		transform: rotate(10deg) translateX(15px);
+	}
+	80%{
+		transform: rotate(-10deg) translateX(-15px);
+	}
+}
+#navegacion-cell{
+	width:140px;
+	height: 300px; 
+    background-color: rgba(240,240,240,9.0);
+    position: absolute;
+    z-index: 999;
+    top: -0px;
+    display: none;
+}
+#navegacion-cell ul li{
+	padding: 2px;
+	font-size: 1.2em;
+}
+#navegacion-cell #menu_bajo div{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	position: relative;
+	top: 18px;
+	font-size: 20px;
+}
+#busco{
+	width: 280px;
+	height: 46px;
+}
+#busco a{
+	width: 100%;
+	height: 38px;
+	position: relative;
+	top: -40px;
+	left: 25%;
+}
+#cerrar{
+	width: 40px;
+	height: 40px;
+	right: 0px;
+	position: absolute;
+}
+#cerrar:before{
+	content: '\f10a';
+	width: 40px;
+	height: 40px;
+	right: 0px;
+	position: absolute;
+	font-family: 'flaticon';
+	font-size: 1.8em;
+	text-align: center;
+	cursor: pointer;
+	background: transparent;
+	font-weight: bold;
+}
+#navegacion-cell ul li{
+	margin-top: 30px;
+}
+#navegacion-cell ul li a{
+	text-decoration: none;
+	padding: 7px;
+	border:2px solid #000;
+	border-color: rgba(240,240,240,9.0);
+	margin-left: 16px;
+	color: #000;
+	font-weight: bold;
+}
+#navegacion-cell ul li a:hover{
+	border-bottom-color: rgba(0,139,139);
+}
+.inicio:before{
+	content: '\f132';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	font-family: 'flaticon';
+	background: transparent;
+	font-weight: bold;
+	left: 2px;
+}
+.hadware:before{
+    content: '\f135';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	font-family: 'flaticon';
+	background: transparent;
+	font-weight: bold;
+	left: 2px;
+}
+.software:before{
+    content: '\f151';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	font-family: 'flaticon';
+	background: transparent;
+	font-weight: bold;
+	left: 2px;
+}
+#titulo{
+	font-size: 2.1em;
+	background-color: #20B2AA;
+	padding: 12px;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.paginacion ul {
+	list-style: none;
+}
+
+.paginacion ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.paginacion ul .active a{
+	background: #ce7f08;
+}
+
+.paginacion ul .disable{
+	background: #c8c8c8;
+	display: inline-block;
+	padding: 15px 25px;
+	cursor: not-allowed;
+	color: #fff;
+	text-decoration: none;
+}
+
+.paginacion ul li a{
+	display:  inline-block;
+	padding: 15px 25px;
+	background: #424242;
+	color: #fff;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover{
+	text-decoration: none;
+	background: #3299bb;
+}
+.card-title{
+	/*color: rgba(145,216,245);*/
+	color: #3299bb;
+    text-align: center;
+}
+.card{
+	cursor: pointer;
+}
+footer{
+	background-color: #008B8B;
+	color:#fff;
+	position: absolute;
+	top: 100%;
+}
+.pie{
+	background-color: #20B2AA;
+}
+#espacio{
+	font-size: 2.2em;
+	position: relative;
+	top: 5px;
+}
+
+.texto-redes{
+	position: relative;
+	left: -10px;
+	top: 1px;
+}
+#informacion{
+	padding: 10px;
+}
+#informacion ul li a{
+   text-decoration: none;
+   color: rgba(230,230,230,10);
+   position: relative;
+   left: -25px;
+   top: 3px;
+}
+#informacion ul li{
+	list-style: none;
+}
+#informacion-2{
+	padding: 10px;
+}
+#informacion-2 ul li{
+	list-style: none;
+}
+#informacion-2 ul li a{
+   text-decoration: none;
+   color: rgba(230,230,230,10);
+   position: relative;
+   left: -25px;
+   top: 3px;	
+}
+#dat{
+	position: relative;
+	left: -50px;
+}
+#dat ul li{
+	list-style: none;
+}
+#espacio{
+    	position: relative;
+    	top: -60px;
+    	left: 110px;
+    }
+#local{
+    	position: relative;
+    	top: -10px;
+    	left: 125px;
+    }
+#sobre_nosotros:before{
+	content: '\f12f';
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	font-family: 'flaticon';
+	font-size: 1.1em;
+	left: -25px;
+}
+#vision:before{
+	content: '\f124';
+	width: 20px;
+	height: 20px;
+	font-size: 1.1em;
+	font-family: 'flaticon';
+	position: absolute;
+	left: -25px;
+}
+#publicar:before{
+    content: '\f14e';
+	width: 20px;
+	height: 20px;
+	font-size: 1.1em;
+	font-family: 'flaticon';
+	position: absolute;
+	left: -25px;	
+}
+#contacto:before{
+    content: '\f165';
+	width: 20px;
+	height: 20px;
+	font-size: 1.1em;
+	font-family: 'flaticon';
+	position: absolute;
+	left: -25px;	
+}
+#dat #bordes{
+	position: relative;
+	left: 10px;
+	top: 20px;
+}
+.recomiendo{
+	background-color: #fff;
+}
+.lista_de_software{
+        background-color: #fff;
+        width: 320px;
+        position: absolute;
+        z-index: 999;
+        top: 50px;
+        display: none;
+        left: 50%;
+    }
+    .lista_de_software a{
+        border: 2px solid #cdcdcd;
+    }
+    .lista_de_software a:hover{
+    border-bottom-color: #008B8B;
+    }
+    .izq{
+      position: relative;
+      left: -15px;
+    }
+body{
+  font-family: 'Share Tech Mono', monospace;
+}
+
+/*responsive adatable*/
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+	#bordes{
+		left: -10px;
+	}
+	#espacio{
+    	position: relative;
+    	top: -60px;
+    	left: 110px;
+    }
+    #local{
+    	position: relative;
+    	top: -118px;
+    	left: 125px;
+    }
+    .redes-sociales{
+    	position: relative;
+    	top: -50px;
+    	left: 120px;
+    }
+    .texto-redes{
+    	top: -40px;
+    	left: -21%;
+    }
+    #dat{
+    	left: 100px;
+    }
+    #busco a{
+	left: 70%;
+}
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+	}*/
+
+.card:hover{
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: linear;
+	transform: translateY(-10px) translateX(-10px);
+	box-shadow: 10px 10px rgba(225,225,225,0.9);
+}
+	#bordes{
+		left: 30px;
+	}
+	#navegacion{
+		left: -1px;
+	}
+	#espacio{
+    	position: relative;
+    	top: -60px;
+    	left: 110px;
+    }
+    #local{
+    	position: relative;
+    	top: -118px;
+    	left: 125px;
+    }
+    .texto-redes{
+    	left: -40px;
+    }
+     .redes-sociales{
+    	position: relative;
+    	top: -0px;
+    	left: 0px;
+    }
+    .texto-redes{
+    	top: -0px;
+    	left: -20px;
+    }
+    #dat{
+    	left: -40px;
+    }
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+	}*/
+	#bordes{
+		left: 140px;
+	}
+	#espacio{
+    	position: relative;
+    	top: -60px;
+    	left: 110px;
+    }
+    #local{
+    	position: relative;
+    	top: -118px;
+    	left: 125px;
+    }
+    .texto-redes{
+    	left: -50px;
+    }
+
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+    }*/
+    #bordes{
+    	left: 240px;
+    }
+    #espacio{
+    	position: relative;
+    	top: -60px;
+    	left: 110px;
+    }
+    #local{
+    	position: relative;
+    	top: -118px;
+    	left: 125px;
+    }
+    .texto-redes{
+    	left: -75px;
+    }
+}

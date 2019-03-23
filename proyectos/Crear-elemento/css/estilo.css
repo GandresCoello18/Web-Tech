@@ -1,0 +1,32 @@
+.gris{
+	background-color: rgba(230,230,230,0.8);
+}
+#formulario{
+	width: 240px;
+	height: 110px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	display: none;
+	position: fixed;
+	top: 470px;
+	background-color: #fff;
+}
+.clase_caja{
+	width: 190px;
+	height: 40px;
+	border: 1px solid #000;
+	text-align: center;
+	margin: auto;
+}
+.clase_parrafo{
+	color: red;
+}
+.clase_lista{
+	color: green;
+}
+.clase_enlace{
+	color: orange;
+}
+.clase_input{
+	border-bottom: 2px solid lime;
+}

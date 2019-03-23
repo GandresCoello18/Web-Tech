@@ -1,0 +1,49 @@
+#accordion .pin:before{
+	content: '\f153';
+	position: absolute;
+	font-family: 'flaticon';
+	left: 10px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+#foto_publi{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: -10px;
+}
+#foto_publi img{
+	width: 40px;
+	height: 40px;
+}
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+	}*/
+	#foto_publi{
+		left: 160px;
+	}
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+	}*/
+	#foto_publi{
+		left: 240px;
+	}
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+	}*/
+	#foto_publi{
+		left: 300px;
+	}
+}
